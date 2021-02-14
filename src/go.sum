@@ -1,2 +1,7 @@
 github.com/lib/pq v1.9.0 h1:L8nSXQQzAYByakOFMTwpjRoHsMJklur4Gi59b6VivR8=
 github.com/lib/pq v1.9.0/go.mod h1:AlVN5x4E4T544tWzH6hKfbfQvm3HdbOxrmggDNAPY9o=
+github.com/ninetypercentlanguage/misc v0.1.0 h1:q21B4qarozb6Ug93D/T2tsct3k7Mof33sIsdgZlc+S4=
+github.com/ninetypercentlanguage/misc v0.2.0 h1:F6i5kqtoC+o6v65zerUsvKxn5IBGGoEAKod7VnjUxuU=
+github.com/ninetypercentlanguage/misc v0.2.0/go.mod h1:5OI31u+XP9dl+O7XtDPvlTn8wnKeyN4888HX0jhiwfo=
+github.com/ninetypercentlanguage/word-utils v0.4.0 h1:asF5h5bSHGleBUfS/CEBwyd76HyZYMS7qH7hS2EFARc=
+github.com/ninetypercentlanguage/word-utils v0.4.0/go.mod h1:wKXBDU+7XCf9UHSTqoGmBU3I67g11RF4lgiz50d7UsA=
