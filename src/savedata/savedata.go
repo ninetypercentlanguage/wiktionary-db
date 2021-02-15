@@ -29,13 +29,16 @@ func Save(w []getdata.WordData, db *sql.DB) {
 				})
 			}
 		}
-		if i%1000 == 0 {
+		if i%1000 == 0 || i == len(w)-1 {
 			fmt.Printf("%v of %v words (and parts of speech) saved\n", i, len(w))
 		}
 	}
 
-	for _, lemma := range idsForLemmas {
+	for i, lemma := range idsForLemmas {
 		saveLemma(lemma.lemmaData, lemma.partOfSpeechId, db)
+		if i%1000 == 0 || i == len(idsForLemmas)-1 {
+			fmt.Printf("%v of %v lemmas saved\n", i, len(idsForLemmas))
+		}
 	}
 }
 

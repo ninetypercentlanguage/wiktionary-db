@@ -14,7 +14,6 @@ import (
 
 func main() {
 	flagVals := getflags.GetFlags()
-	// connStr := "user=al password=pw dbname=words sslmode=disable"
 	db, err := sql.Open("postgres", flagVals.Db)
 	checkErr(err)
 	err = dbsetup.Drop(db)
